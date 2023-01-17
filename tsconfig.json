@@ -1,3 +1,10 @@
 {
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/controllers/*": ["./controllers/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
   "extends": "./.nitro/types/tsconfig.json"
 }

@@ -6,6 +6,9 @@
     "preview": "node .output/server/index.mjs"
   },
   "dependencies": {
-    "nitropack": "latest"
+    "consola": "^2.15.3"
+  },
+  "devDependencies": {
+    "nitropack": "^1.0.0"
   }
 }

@@ -1,0 +1,23 @@
+@host=http://localhost:3000
+@uuid=47f6634a-a2f3-411d-b781-a674d178410c
+###
+
+GET {{ host }}/
+Content-Type: application/json
+
+###
+
+GET {{ host }}/users/{{ uuid }}/
+Content-Type: application/json
+
+###
+
+POST {{ host }}/users
+Content-Type: application/json
+
+{
+  "name": "André Vandal",
+  "email": "me@andrevandal.dev"
+}
+
+###

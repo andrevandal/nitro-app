@@ -1,3 +1,1 @@
-export default eventHandler(() => {
-  return { nitro: 'Is Awesome!' }
-})
+export default eventHandler(() => ({message: 'hello world!'}))
